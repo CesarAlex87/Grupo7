@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+console.log(dataUsers);
+dataUsers.contentCreators.map((creator) => {
+  console.log(
+    `Creador :${creator.username} \nCantidad de seguidores: ${creator.followers}`
+  );
+});
+=======
 const ApiKey = "1134033234651657";
 
 // Función para llamar a la API de meta
@@ -35,3 +43,4 @@ function callMetaAPI() {
 
 // Llama a la función para probar la API de meta
 callMetaAPI();
+>>>>>>> 96ee458e50d86245bd32827e20e584a4c63d3275
