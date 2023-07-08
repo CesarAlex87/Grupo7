@@ -9,16 +9,19 @@ const dataUsers = {
       videos: [
         {
           video_id: "video1",
+          videos_Portada: "./",
           views: 5000,
           likes: 250,
           comments: [
             {
               username: "Usuario1",
               comment: "¡Gran video! Me encantó.",
+              "likes": 50
             },
             {
               username: "Usuario2",
               comment: "¿Cuál es el juego que estás jugando?",
+              "likes": 200
             },
           ],
           hashtags: ["gaming", "retrogaming"],
@@ -31,10 +34,12 @@ const dataUsers = {
             {
               username: "Usuario3",
               comment: "El mundo de Metroid es asombroso.",
+              "likes": 80
             },
             {
               username: "Usuario4",
               comment: "¡Eres genial en los juegos de Nintendo!",
+              "likes": 100
             },
           ],
           hashtags: ["Nintendo", "Metroid"],
@@ -47,10 +52,12 @@ const dataUsers = {
             {
               username: "Usuario5",
               comment: "¿Has jugado a The Legend of Zelda: Breath of the Wild?",
+              "likes": 350
             },
             {
               username: "Usuario6",
               comment: "¡Quiero ver más contenido de RPG en tu cuenta!",
+              "likes": 50
             },
           ],
           hashtags: ["Zelda", "RPG"],
@@ -63,10 +70,12 @@ const dataUsers = {
             {
               username: "Usuario7",
               comment: "Mario es un clásico atemporal.",
+              "likes": 20
             },
             {
               username: "Usuario8",
               comment: "¿Cuál es tu Mario favorito?",
+              "likes": 80
             },
           ],
           hashtags: ["Mario", "Platformer"],
@@ -80,10 +89,12 @@ const dataUsers = {
               username: "Usuario9",
               comment:
                 "¡Playstation es la mejor plataforma para juegos de FPS!",
+                "likes": 170
             },
             {
               username: "Usuario10",
               comment: "¿Cuál es tu FPS favorito?",
+              "likes": 150
             },
           ],
           hashtags: ["Playstation", "FPS"],
@@ -105,10 +116,12 @@ const dataUsers = {
             {
               username: "Usuario12",
               comment: "Me encanta este juego, ¿dónde lo puedo conseguir?",
+              "likes": 100
             },
             {
               username: "Usuario13",
               comment: "¡Qué jugabilidad tan fluida!",
+              "likes": 50
             },
           ],
           hashtags: ["indie", "plataformas"],
@@ -130,10 +143,12 @@ const dataUsers = {
             {
               username: "Usuario15",
               comment: "Excelente contenido, sigue así.",
+              "likes": 200
             },
             {
               username: "Usuario16",
               comment: "¿Podrías recomendar algún juego de estrategia?",
+              "likes": 80
             },
           ],
           hashtags: ["estrategia", "simulación"],
