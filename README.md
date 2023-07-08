@@ -1,2 +1,2 @@
 # Grupo7-HACHATHON
-1134033234651657
+https://www.notion.so/chrxs/El-hackaton-dd532ac5fa2548fbbd1b0436b3153f3e
