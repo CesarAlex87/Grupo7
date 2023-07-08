@@ -9,7 +9,9 @@ const dataUsers = {
       videos: [
         {
           video_id: "video1",
-          videos_Portada: "./",
+          description: "Descripción del video 1",
+          videos_Video: "videos/video1.mp4",
+          videos_Portada: "thumbnails/video1.jpg",
           views: 5000,
           likes: 250,
           comments: [
@@ -28,6 +30,9 @@ const dataUsers = {
         },
         {
           video_id: "video2",
+          description: "Descripción del video 2",
+          videos_Video: "videos/video2.mp4",
+          videos_Portada: "thumbnails/video2.jpg",
           views: 3500,
           likes: 180,
           comments: [
@@ -46,6 +51,9 @@ const dataUsers = {
         },
         {
           video_id: "video3",
+          description: "Descripción del video 3",
+          videos_Video: "videos/video3.mp4",
+          videos_Portada: "thumbnails/video3.jpg",
           views: 8000,
           likes: 400,
           comments: [
@@ -64,6 +72,9 @@ const dataUsers = {
         },
         {
           video_id: "video4",
+          description: "Descripción del video 4",
+          videos_Video: "videos/video4.mp4",
+          videos_Portada: "thumbnails/video4.jpg",
           views: 2000,
           likes: 100,
           comments: [
@@ -82,6 +93,9 @@ const dataUsers = {
         },
         {
           video_id: "video5",
+          description: "Descripción del video 5",
+          videos_Video: "videos/video5.mp4",
+          videos_Portada: "thumbnails/video5.jpg",
           views: 6000,
           likes: 320,
           comments: [
@@ -110,6 +124,9 @@ const dataUsers = {
       videos: [
         {
           video_id: "video6",
+          description: "Descripción del video 6",
+          videos_Video: "videos/video6.mp4",
+          videos_Portada: "thumbnails/video6.jpg",
           views: 2000,
           likes: 150,
           comments: [
@@ -137,6 +154,9 @@ const dataUsers = {
       videos: [
         {
           video_id: "video7",
+          description: "Descripción del video 7",
+          videos_Video: "videos/video7.mp4",
+          videos_Portada: "thumbnails/video7.jpg",
           views: 4000,
           likes: 280,
           comments: [
