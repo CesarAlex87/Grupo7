@@ -21,20 +21,17 @@ const BodyImpactifyer = () => {
               <div className="video-item">
                 <img  src={icon[2]} alt="Video 1" />
                 <p>Visitas: 300k</p>
-                <p>Comentario mas likeado: ¡AWEEEEEE 🥰🥰🥰!</p>
-                <p>League of Leyends</p>
+                <p>Moda</p>
               </div>
               <div className="video-item">
                   <img  src={icon[3]} alt="Video 2" />
                   <p>Visitas: 170k</p>
-                  <p>Comentario mas likeado: ¡Me encanta la música en este video! 🎵</p>
-                  <p>Music Edit</p>
+                  <p>Comedia</p>
               </div>    
               <div className="video-item">
                     <img  src={icon[4]} alt="Video 3" />
                     <p>Visitas: 80k</p>
-                    <p>Comentario mas likeado: ¡Esto alegró mi día! ❤️</p>
-                    <p>Motivation</p>
+                    <p>PetFriendly</p>
               </div> 
           </div>
         </div>
@@ -43,6 +40,23 @@ const BodyImpactifyer = () => {
         <div className="titleSection">
             <img src={icon[0]} alt="" />
             <h2>COMENTARIOS</h2>
+          </div>
+          <div className="video-containerComents">
+              <div className="video-itemComent">
+                <p>¡AWEEEEEE 🥰🥰🥰!</p>
+              </div>
+              <div className="video-itemComent">
+                  <p>¡Me encanta la música en este video! 🎵</p>
+              </div>    
+              <div className="video-itemComent">
+                    <p>¡Esto alegró mi día! ❤️</p>
+              </div>
+              <div className="video-itemComent">
+                    <p>¡Contenido impresionante! 🔥</p>
+              </div> 
+              <div className="video-itemComent">
+                    <p>¡Estoy sin palabras! 😮</p>
+              </div>  
           </div>
         </div>
         <div className="content-rectangle" >
