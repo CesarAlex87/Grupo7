@@ -1,0 +1,22 @@
+.HeadPublifyer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userPhoto {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  
+  .userPhoto img {
+    width: 150px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    height: auto;
+    border-radius: 50%; /* Para que la imagen tenga forma circular */
+    margin-right: 20px;
+  }
+  
+  .userPhoto p {
+    margin-bottom: 10px;
+  }
+  
