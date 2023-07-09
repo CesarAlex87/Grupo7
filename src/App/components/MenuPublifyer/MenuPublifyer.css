@@ -1,36 +1,39 @@
 .MenuPublifyer {
-    display: flex;
-    align-items: center;
-  }
-  
-  .LogoPublifyer {
-    display: flex;
-    align-items: center;
-  }
-  
-  .LogoPublifyer img {
-    margin-right: 10px;
-  }
-  
-  .options {
-    display: flex;
-    align-items: center;
-  }
-  
-  .option-dashboard,
-  .option-campaigns,
-  .option-report,
-  .option-profile,
-  .option-impactify {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-  }
-  
-  .option-dashboard img,
-  .option-campaigns img,
-  .option-report img,
-  .option-profile img,
-  .option-impactify img {
-    margin-right: 10px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.LogoPublifyer {
+  display: flex;
+  align-items: center;
+}
+
+.LogoPublifyer img {
+  margin-right: 10px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.option-dashboard,
+.option-campaigns,
+.option-report,
+.option-profile,
+.option-impactify {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.option-dashboard img,
+.option-campaigns img,
+.option-report img,
+.option-profile img,
+.option-impactify img {
+  margin-right: 15px;
+}
