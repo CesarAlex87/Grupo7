@@ -1,7 +1,26 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .content-rectangle {
   width: 300px;
   height: 200px;
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   padding: 20px;
+  margin: 10px;
+  border-radius: 70px;
+}
+
+.top-row {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-row {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
 }

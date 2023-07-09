@@ -27,7 +27,7 @@
 .option-impactify {
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .option-dashboard img,
@@ -35,5 +35,5 @@
 .option-report img,
 .option-profile img,
 .option-impactify img {
-  margin-right: 15px;
+  margin-right: 10px;
 }
