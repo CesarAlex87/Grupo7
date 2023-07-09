@@ -16,6 +16,25 @@ const BodyImpactifyer = () => {
           <div className="titleSection">
             <img src={icon[0]} alt=""  className="icon"/>
             <h2> TOP VIDEOS</h2>
+            <div className="video-container">
+              <div className="video-item">
+                <img  src={icon[2]} alt="Video 1" />
+                </div>
+                <p>Visitas: 300k</p>
+                <p>Comentario mas likeado: ¡AWEEEEEE 🥰🥰🥰!</p>
+                <p>League of Leyends</p>
+                <div className="video-item">
+                  <img  src={icon[3]} alt="Video 2" />
+                  </div>
+                  <p>Visitas: 170k</p>
+                  <p>Comentario mas likeado: ¡Me encanta la música en este video! 🎵</p>
+                  <p>Music Edit</p>
+                  <div className="video-item">
+                    <img  src={icon[4]} alt="Video 3" />
+                    </div>
+                    <p>Visitas: 80k</p>
+                    <p>Comentario mas likeado: ¡Esto alegró mi día! ❤️</p>
+                    <p>Motivation</p>
           </div>
         </div>
         <div className="content-rectangle" >
@@ -38,6 +57,8 @@ const BodyImpactifyer = () => {
         </div>      
       </div>
       </div>
+      </div>
+
   );
 };
 
