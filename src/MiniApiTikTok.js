@@ -255,5 +255,7 @@ const MiniApiTikTok = {
         },
       ],
     },
-  ]
+  ],
 };
+
+export { MiniApiTikTok };

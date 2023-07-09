@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.51141216.css",
-    "main.js": "/static/js/main.eecd06bd.js",
-    "static/media/userphoto.svg": "/static/media/userphoto.dcaaab3e56d873cfda545bcfecaebba0.svg",
+    "main.css": "/static/css/main.c8a8b73a.css",
+    "main.js": "/static/js/main.8212d349.js",
+    "static/media/userphoto.svg": "/static/media/userphoto.8d50533f7ea7253a2a1a0752db3920c5.svg",
+    "static/media/vid3.jpg": "/static/media/vid3.8c6a0193a5f8c73d3e64.jpg",
+    "static/media/vid1.jpg": "/static/media/vid1.387078e6e5bf70b8b3a3.jpg",
+    "static/media/vid2.jpg": "/static/media/vid2.6dbebfa8377422e1e187.jpg",
     "static/media/portada-duracion-tiktok-como-hacer-videos-mas-largos.jpg": "/static/media/portada-duracion-tiktok-como-hacer-videos-mas-largos.4781c3f155ddac2b9689.jpg",
     "static/media/impactify.svg": "/static/media/impactify.7ba9a86141b73ec3ed7085842a45dc91.svg",
-    "static/media/campaña.svg": "/static/media/campaña.a4beedbda94a0879978ea6663d925353.svg",
+    "static/media/campaña.svg": "/static/media/campaña.9af2490664469408c444c92027ad6b56.svg",
     "static/media/perfil.svg": "/static/media/perfil.95d424102801c54dea5def665280b609.svg",
-    "static/media/image 1.svg": "/static/media/image 1.16a50e125f63bdd7f94e1356ec582b83.svg",
+    "static/media/image 1.svg": "/static/media/image 1.a6ad4511f7de7a326c040129abaa0876.svg",
     "static/media/reporte.svg": "/static/media/reporte.c37c64377abc3338f008cefc10e33445.svg",
-    "static/media/dashboard.svg": "/static/media/dashboard.f8eef704e0893ca8c94402b579ff4236.svg",
+    "static/media/dashboard.svg": "/static/media/dashboard.874cea2defdc5b71ddd50909ba503b3e.svg",
     "index.html": "/index.html",
-    "static/media/play-solid.svg": "/static/media/play-solid.8aae920682a6f41de2f755d58331c31d.svg",
-    "main.51141216.css.map": "/static/css/main.51141216.css.map",
-    "main.eecd06bd.js.map": "/static/js/main.eecd06bd.js.map"
+    "static/media/play-solid.svg": "/static/media/play-solid.b3a3a5355f07395d0f25a1c0b8f554be.svg",
+    "main.c8a8b73a.css.map": "/static/css/main.c8a8b73a.css.map",
+    "main.8212d349.js.map": "/static/js/main.8212d349.js.map"
   },
   "entrypoints": [
-    "static/css/main.51141216.css",
-    "static/js/main.eecd06bd.js"
+    "static/css/main.c8a8b73a.css",
+    "static/js/main.8212d349.js"
   ]
 }
