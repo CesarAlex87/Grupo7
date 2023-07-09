@@ -10,9 +10,9 @@ const HeadPublifyer = () => {
       </div>
       <div className="userDetails">
           <h3>Cesar</h3>
-          <p>Following: 168.4k</p>
-          <p>Followers: 168.4k</p>
-          <p>Likes: 168.4k</p>
+          <p>Following: 2k</p>
+          <p>Followers: 476.4k</p>
+          <p>Likes: 2.6M</p>
         </div>
     </div>
   );
