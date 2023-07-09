@@ -1,5 +1,4 @@
-const dataSetTendencias = () => {
-  {
+const dataSetTendencias = {
     discoverList: [
       {
         type: 3,
@@ -61,6 +60,7 @@ const dataSetTendencias = () => {
         link: "https://www.tiktok.com/music/Triple-S-6872482756727670785",
         isInternalLink: false,
       },
-    ];
+    ]
   }
-};
+
+  export {dataSetTendencias}

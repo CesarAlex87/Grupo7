@@ -1,4 +1,4 @@
-const MiniApiTikTok = () => {
+const MiniApiTikTok = {
   video_list: [
     {
       id: "video1",
@@ -255,5 +255,5 @@ const MiniApiTikTok = () => {
         },
       ],
     },
-  ];
+  ]
 };

@@ -177,3 +177,5 @@ const dataUsers = {
     },
   ],
 };
+
+export {dataUsers}

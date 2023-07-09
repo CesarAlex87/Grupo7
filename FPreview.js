@@ -1,5 +1,7 @@
+import { dataSetTendencias } from "./src/DataSetTendencias";
+
 const videosPreviewData = [];
-const trending = DataSetTendencias.trending; // Obtener el elemento "trending" del dataset "DataSetTendencias"
+const trending = dataSetTendencias.discoverList.trending; // Obtener el elemento "trending" del dataset "DataSetTendencias"
 
 // Iterar sobre los datos de los videos existentes
 for (const video of MiniApiTikTok.video_list) {
