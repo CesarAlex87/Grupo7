@@ -1,6 +1,7 @@
 .mainContent {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   overflow-y: scroll;
 }
 .header{
@@ -28,9 +29,21 @@
   width: 100%;
 }
 
+.sections .content-rectangle .video-container{
+  justify-content: center;
+  display: flex;
+}
+
+.sections .content-rectangle .video-item{
+  width: 200px;
+}
+
+.sections .content-rectangle .video-item img{
+  width: 100px;
+}
+
 .sections .content-rectangle {
   width: 100%;
-  height: 200px;
   background-color: #ffffff;
   padding: 10px 0;
   margin: 5px 0;
@@ -49,4 +62,12 @@
   flex-basis: 50%;
   display: flex;
   justify-content: center;
+}
+
+.sections .sectionVideos{
+  width: 50%;
+}
+
+.sections .sectionComments{
+  width: 50%;
 }
