@@ -1,12 +1,26 @@
 .MenuPublifyer {
+  width: 15vw;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  box-shadow: 16px 0px 8px -3px rgba(0,0,0,0.1);
 }
 
 .LogoPublifyer {
   display: flex;
+  width: 100%;
+  height: 100px;
+  align-content: center;
   align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 25px;
+}
+
+.LogoPublifyer p{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .LogoPublifyer img {
@@ -15,6 +29,7 @@
 
 .options {
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   margin-top: 10px;

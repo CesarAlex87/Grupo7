@@ -9,14 +9,10 @@ const AppUi = () => {
   return (
     <>
       <div className="container">
-        <div className="menu">
           <MenuPublifyer />
-        </div>
+        
         <div className="body">
           <BodyImpactifyer />
-        </div>
-        <div className="head">
-          <HeadPublifyer />
         </div>
       </div>
     </>

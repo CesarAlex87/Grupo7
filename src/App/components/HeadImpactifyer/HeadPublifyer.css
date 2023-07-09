@@ -1,19 +1,33 @@
 .HeadPublifyer {
     display: flex;
+    width: 100%;
     align-items: center;
+    
   }
-  
+
   .userPhoto {
+    width: 350px;
+    height: 225px;
     display: flex;
     align-items: flex-start;
     margin-left: 20px;
-  }
-  
-  .userPhoto img {
-    width: 150px; /* Ajusta el tamaño de la imagen según tus preferencias */
-    height: auto;
-    border-radius: 50%; /* Para que la imagen tenga forma circular */
+  }  
+  .userPhoto .imgPhoto{
+    width: 350px;
+    height: 210px;
+    border-radius: 100%; /* Para que la imagen tenga forma circular */
     margin-right: 20px;
+  }
+
+  .userDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .userDetails h3, .userDetails p{
+    margin: 0;
   }
   
   .userPhoto p {
