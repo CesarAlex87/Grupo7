@@ -7,11 +7,17 @@ import { Grafica } from "./components/Grafica/Graph.js";
 
 const AppUi = () => {
   return (
-    <>
-      <HeadPublifyer />
-      <MenuPublifyer />
-      <BodyImpactifyer />
-    </>
+    <div className="container">
+      <div className="menu">
+        <Menu />
+      </div>
+      <div className="body">
+        <Body />
+      </div>
+      <div className="head">
+        <Head />
+      </div>
+    </div>
   );
 };
 
