@@ -1,27 +1,27 @@
 const videosPreviewData = [];
 
 // Iterar sobre los datos de los videos existentes
-data.forEach((video) => {
-  // Obtener la ruta de la imagen de la viñeta del video (suponiendo que la imagen está en la misma carpeta con el mismo nombre que el video_id y la extensión .jpg)
-  const thumbnailPath = `${video.video_id}.jpg`;
+for (const video of MiniApiTikTok.video_list) {
+  // Obtener el nombre del archivo de la imagen de la viñeta del video con la extensión .jpg
+  const thumbnailPath = video.cover_image_url.substring(video.cover_image_url.lastIndexOf('/') + 1);
 
-  // Encontrar el comentario con más likes
-  const mostLikedComment = video.comments.reduce((prev, current) =>
-    current.likes > prev.likes ? current : prev
-  );
+  // Encontrar los dos comentarios con más likes para este video
+  const topTwoLikedComments = video.comments
+    .sort((a, b) => b.like_count - a.like_count)
+    .slice(0, 2);
 
   // Crear un nuevo objeto que contenga los datos de vista previa del video
   const videoPreview = {
-    video_id: video.video_id,
+    video_id: video.id,
     thumbnail: thumbnailPath,
-    views: video.views,
-    likes: video.likes,
-    most_liked_comment: mostLikedComment,
+    views: video.view_count,
+    likes: video.like_count,
+    top_liked_comments: topTwoLikedComments,
   };
 
   // Agregar el objeto al arreglo de datos de vista previa de los videos
   videosPreviewData.push(videoPreview);
-});
+}
 
 // Crear el archivo JSON con los datos de vista previa de los videos
 const videosPreviewJSON = JSON.stringify(videosPreviewData, null, 2);
