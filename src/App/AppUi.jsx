@@ -4,7 +4,7 @@ import { MenuPublifyer } from "./components/MenuPublifyer/MenuPublifyer";
 import { HeadPublifyer } from "./components/HeadImpactifyer/HeadPublifyer";
 import { BodyImpactifyer } from "./components/BodyImpactifyer/BodyImpactifyer";
 import ChartComponent from "./components/ChartComponent/ChartComponent";
-import dataSet from "./src/DataSetTendencias.js";
+import dataSet from "../DataSetTendencias";
 
 const AppUi = () => {
   return (
