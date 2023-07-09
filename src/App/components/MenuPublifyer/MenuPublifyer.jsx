@@ -1,6 +1,7 @@
 import React from "react";
 import { Img } from "react-image";
 import images from "./img";
+import "./MenuPublifyer.css";
 
 const MenuPublifyer = () => {
   return (
