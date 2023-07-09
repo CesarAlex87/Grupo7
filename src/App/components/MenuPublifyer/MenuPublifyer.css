@@ -1,9 +1,13 @@
-.MenuPublifyer {
+.MenuPublifyer, .MenuPublifyer-bg {
   width: 15vw;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   height: 100vh;
+}
+
+.MenuPublifyer{
+  position: fixed;
   box-shadow: 16px 0px 8px -3px rgba(0,0,0,0.1);
 }
 

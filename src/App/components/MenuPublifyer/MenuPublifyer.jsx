@@ -4,6 +4,8 @@ import "./MenuPublifyer.css";
 
 const MenuPublifyer = () => {
   return (
+    <>
+    <div className="MenuPublifyer-bg"></div>
     <div className="MenuPublifyer">
       <div className="LogoPublifyer">
         <img src={images[0]} />
@@ -32,6 +34,7 @@ const MenuPublifyer = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
