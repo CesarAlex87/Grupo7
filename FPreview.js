@@ -1,4 +1,5 @@
 const videosPreviewData = [];
+const trending = DataSetTendencias.trending; // Obtener el elemento "trending" del dataset "DataSetTendencias"
 
 // Iterar sobre los datos de los videos existentes
 for (const video of MiniApiTikTok.video_list) {
@@ -17,6 +18,8 @@ for (const video of MiniApiTikTok.video_list) {
     views: video.view_count,
     likes: video.like_count,
     top_liked_comments: topTwoLikedComments,
+    trending: trending, // Agregar el elemento "trending" al objeto de vista previa del video
+
   };
 
   // Agregar el objeto al arreglo de datos de vista previa de los videos
